@@ -1,0 +1,32 @@
+name: actividad3_guia_iot
+description: Dashboard Flutter para ESP32 con potenciómetro y Supabase.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Cliente oficial de Supabase para Flutter
+  supabase_flutter: ^2.0.0
+
+  # Velocímetro / gauge circular compatible con null-safety
+  sleek_circular_slider: ^2.1.0
+
+  # Buenas prácticas de estilo (opcional pero útil)
+  flutter_lints: ^4.0.0
+  google_fonts: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Si prefieres, flutter_lints puede estar aquí en vez de arriba.
+  # flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
